@@ -12,6 +12,13 @@
             font-size: 1em;
             background-color: #f0f0f0;
             color: #000;
+            margin: 10pt;
+        }
+        dl {
+            border: 1px solid #000;
+            padding: 10px;
+            width: auto;
+            margin: 10px;
         }
     </style>
 </head>
@@ -32,5 +39,59 @@
         <li>Tomar café
         <li>Tomar banho</li>
         <li>Ir trabalhar</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>C</li>
+        </ol>
+        <li>Atuais</li>
+        <ol type="a" start="3"> 
+            <li>Python</li>
+            <li>JavaScript</li>
+        </ol>
+    </ol>
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>PlayStation 2</li>
+        <ul type="disc">
+            <li>God of War</li>
+            <ul type="disc">
+                <li>God of War 1</li>
+                <li>God of War 2</li>
+                <li>God of War 3</li>
+            </ul>
+            <li>Need for Speed</li>
+            <ul type="disc">
+                <li>Most Wanted</li>
+                <li>Underground</li>
+                <li>Underground 2</li>
+            </ul>
+        </ul>
+        <li>PC</li>
+        <ul type="disc">
+            <li>Cross Fire</li>
+            <li>Counter Strike</li>
+            <ul type="disc">
+                <li>1.6</li>
+                <li>Global Offensive</li>
+            </ul>
+            <li>Grand Theft Auto</li>
+            <ul type="disc">
+                <li>Vici City</li>
+                <li>San Andreas</li>
+                <li>Liberty City</li>
+            </ul>
+        </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl> <!-- dl = description list -->
+        <dt>HTML</dt> <!-- dt = termo -->
+        <dd>Linguagem de marcação para criação do conteúdo de um site</dd> <!-- dd = definição -->
+        <dt>CSS</dt>
+        <dd>Linguagem de folhas de estilo, para design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criação de interaçao de um site</dd>
 </body>
 </html>
